@@ -17,7 +17,7 @@ function App() {
         <Route path="/dashboard" component={Dashboard} />
         <Route path="/login" component={Login} />
         <Route
-          path="/posts/:postId?" component={Posts}
+          path="/posts/:postId?/:display" component={Posts}
         />
       </Switch>
     </div>
